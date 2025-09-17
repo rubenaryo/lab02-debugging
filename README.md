@@ -1,5 +1,6 @@
 # lab02-debugging
 
+Ruben Young (rubenayr@seas.upenn.edu)
 [Shadertoy Solution](https://www.shadertoy.com/view/tcsBDf)
 Bugfixes:
 * vec -> vec2 typo
@@ -7,6 +8,8 @@ Bugfixes:
 * inside raycast, fixed H to divide resolution x/y instead of x/x
 * Not enough march iterations, changed to be i < 256
 * Reflect was incorrect, it was reflecting (eye, nor) and should be (dir, nor)
+
+Worked with Eli Asimow and Jacky Park
 
 # Setup 
 
