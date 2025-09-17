@@ -1,5 +1,13 @@
 # lab02-debugging
 
+[Shadertoy Solution](https://www.shadertoy.com/view/tcsBDf)
+Bugfixes:
+* vec -> vec2 typo
+* uv2 was unreferenced
+* inside raycast, fixed H to divide resolution x/y instead of x/x
+* Not enough march iterations, changed to be i < 256
+* Reflect was incorrect, it was reflecting (eye, nor) and should be (dir, nor)
+
 # Setup 
 
 Create a [Shadertoy account](https://www.shadertoy.com/). Either fork this shadertoy, or create a new shadertoy and copy the code from the [Debugging Puzzle](https://www.shadertoy.com/view/flGfRc).
