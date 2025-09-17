@@ -1,6 +1,7 @@
 # lab02-debugging
 
 Ruben Young (rubenayr@seas.upenn.edu)
+
 [Shadertoy Solution](https://www.shadertoy.com/view/tcsBDf)
 Bugfixes:
 * vec -> vec2 typo
